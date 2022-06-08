@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: rgb(224, 217, 217);
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.521);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 2.5px );
+  -webkit-backdrop-filter: blur( 2.5px );
+  border-radius: 10px;
+  position: relative;
+}
+
+.card__title {
+  font-size: 30px;
+}
+
+.card__list {
+  font-size: 20px;
+}
+
+.card__btn {
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  color: rgb(168, 168, 168);
+  align-content: center;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 0 #000a;
+  transition: box-shadow 200ms ease;
+}
+
+.card__btn:active {
+  box-shadow: 0 0 0 0 #000a;
+  transition: box-shadow 200ms ease;
+}
